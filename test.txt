@@ -1,0 +1,6 @@
+chicken
+apple
+door
+phone
+sun
+people

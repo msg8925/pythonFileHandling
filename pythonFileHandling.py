@@ -8,9 +8,12 @@ with open('test.txt', 'r+') as f:
     print(listOfPasswds)
 
     for pwd in listOfPasswds:
-        print(pwd)
+        if(pwd == "people"):
+            print("success\n")
+        else:
+            print("failure\n")
 
-    #Need to create a dictionary check again list of passwords
+
 
 
 

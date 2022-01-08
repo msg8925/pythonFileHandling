@@ -4,3 +4,6 @@ door
 phone
 sun
 people
+potato
+paper
+frog

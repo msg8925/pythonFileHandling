@@ -6,10 +6,16 @@ with open('test.txt', 'r+') as f:
 
     listOfPasswds = f.read().split()
     print(listOfPasswds)
-    print("\n")
-    print(listOfPasswds[0])
-    print(listOfPasswds[5])
 
+    for pwd in listOfPasswds:
+        print(pwd)
+
+    #Need to create a dictionary check again list of passwords
+
+
+
+
+    
     #for password in f:
         #print(password)
         #f_contents = f.readline()

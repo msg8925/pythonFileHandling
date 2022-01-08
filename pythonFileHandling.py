@@ -1,5 +1,7 @@
 #! /bin/python3 
 
+import hashlib
+
 with open('test.txt', 'r+') as f:
    # f_contents = f.readline()
    # print(f_contents)
@@ -13,8 +15,11 @@ with open('test.txt', 'r+') as f:
         else:
             print("failure\n")
 
+    print("\n")
 
-
+    print(hash("coconut"))
+    print(hash("coconut"))
+    print(hash("pizza"))
 
 
 
